@@ -50,5 +50,52 @@ nav li a:hover {
 }
 
 /* ...................
-
+ Style of Main Part.
 ...................... */
+.verticallineinh1 {
+  font-size: 45px;
+  margin: 30px;
+}
+
+p {
+  margin: 30px;
+  text-align: justify;
+}
+
+.gallery {
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  margin: 30px;
+  font-weight: 800;
+  background-color: rgb(46, 25, 25);
+  background-image: linear-gradient(rgb(6, 101, 145), rgb(148, 96, 245));
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+}
+.sectionflexibility {
+  display: flex;
+  margin-bottom: 30px;
+}
+.imageandtextstyle {
+  width: 80%;
+  padding: 8%;
+  padding-top: 0px;
+  overflow: hidden;
+}
+.imageandtextstyle img {
+  width: 80%;
+  padding: 10%;
+  transition: transform 1.5s ease-in-out;
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: 95%;
+}
+
+.imageandtextstyle img:hover {
+  transform: rotate(360deg);
+}
+
+.gallery:hover {
+  color: cyan;
+}
