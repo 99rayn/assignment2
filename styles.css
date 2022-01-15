@@ -99,3 +99,148 @@ p {
 .gallery:hover {
   color: cyan;
 }
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 25px;
+}
+
+/* 
+    Popular Items Styles
+*/
+
+.title_of_section {
+  text-align: center;
+  padding: 60px;
+  font-weight: 800;
+}
+.sectionnature {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  padding: 60px;
+  margin-top: 0%;
+}
+.boxmission {
+  width: 70%;
+  margin-right: -5%;
+  margin-left: 10%;
+  padding-left: 30px;
+  border-radius: 20px;
+  background-color: rgb(254, 249, 255);
+  box-shadow: 5px 5px 20px gray;
+}
+.img1 {
+  width: 90%;
+  margin-top: 10px;
+  padding-left: 0px;
+  border-radius: 10px;
+}
+.spacing {
+  line-height: 80%;
+}
+.filled {
+  color: rgb(241, 209, 23);
+}
+.empty {
+  color: rgb(189, 185, 185);
+}
+.ratting {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  width: 50px;
+  height: 50px;
+}
+.fa-star {
+  width: 30px;
+  height: 20px;
+}
+.padding {
+  margin-left: 0%;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.more .see_more {
+  text-decoration: none;
+}
+.more {
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+/* ........................
+Login Part
+........................... */
+.container-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.container {
+  display: flex;
+
+  margin-top: 90px;
+  flex-direction: column;
+}
+.container input,
+button {
+  font-size: 1.3em;
+  margin-top: 10px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  border-radius: 8px;
+}
+.container button {
+  background-color: rgb(7, 54, 156);
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  border-radius: 8px;
+  padding: 5px;
+  border: 0;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  color: aquamarine;
+}
+/* .......................
+        Footer Part
+......................... */
+.footerbg {
+  background-color: rgb(7, 32, 78);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footericon {
+  display: flex;
+  justify-content: center;
+}
+.footericon ul li a {
+  color: black;
+  display: block;
+  line-height: 3em;
+  padding: 2em 1em;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+}
+.footericon ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.footericon ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+.footericon li a:hover {
+  color: cyan;
+}
+.paragraph {
+  text-align: center;
+}
